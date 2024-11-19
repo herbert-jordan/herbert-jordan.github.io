@@ -1,5 +1,25 @@
 ---
-title: "About"
+title: "Presentations and Publications"
 ---
 
-About this site
+# Publications
+
+Herbert, J. N., Raleigh, M. S., & Small, E. E. (2024). *High-resolution, daily snow depth estimates at the basin scale using machine learning interpolation of Snotel data enhanced with lidar*. Water Resources Research (in review). 
+
+Herbert, J. N., Raleigh, M. S., & Small, E. E. (2024). *Reanalyzing the spatial representativeness of snow depth at automated monitoring stations using airborne lidar data*. The Cryosphere. 
+
+Herbert, J. N., Kelly, M. A., (2022). *Geomorphic and Paleoclimatic Implications of Glacial Extent Records in the Sierra Nevada Del Cocuy, Colombia During Termination 1* . Dartmouth
+College Master’s Theses. 55. Peer-reviewed publication to follow.
+
+# Presentations
+Herbert, J. N., Raleigh, M. S., & Small, E. E. (2024). *A spatiotemporally expanded snow validation dataset: Integrating snow station and lidar data through machine learning*. American Geophysical Union Annual Meeting (poster). 
+
+Herbert, J. N., Raleigh, M. S., & Small, E. E. (2024). *Integrating snow station and lidar data with machine learning: A daily, spatially representative snow validation dataset*. Nasa Snow Community Meeting (poster). 
+
+Herbert, J. N., Raleigh, M. S., & Small, E. E. (2023). *Apples to apples, and apples to oranges: assessing snow pillow representativeness with airborne Lidar*. American Geophysical Union Annual Meeting (talk). 
+
+Herbert, J., Kelly, M., Bromley, G., Doughty, A., Ruiz-Carrascal, D., Hidy, A., & Restrepo-Moreno, S. (2021). *Climate change in the northern tropical Andes during Termination 1 derived from glacier reconstructions: The Sierra Nevada del Cocuy Case*. Geological Society of America Annual Meeting (talk).  
+
+# 
+
+
