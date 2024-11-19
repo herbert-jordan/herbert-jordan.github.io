@@ -17,7 +17,7 @@ toc: false
 
 ## About Me
 
-Hi! I am a PhD candidate at the University of Colorado, Boulder in Eric Small's terrestrial hydrology lab. I use this website to share a little bit about myself and the science I'm working on. My current research uses models and statistical methods to address critical questions about water availability, with the goal of supporting water resource managers and policymakers in making informed decisions.
+Hi! I am a PhD candidate at the University of Colorado, Boulder in Eric Small's terrestrial hydrology lab. I use this website to share a little bit about myself and the science I'm working on. My  research focuses on quantifying the amount of water held in mountain snowpacks by blending modeled, remotely sensed, and in-situ data using statistical methods. About half of the water in the western United States comes from snow, so my goal is to improve estimates of water availability, supporting water managers and policymakers to make informed decisions about water management and allocation.
 
 I enjoy solving problems with computational methods, wrangling big datasets, making pretty maps and figures, and emphasizing science with applications for society. When I’m not sitting behind a desk, I can be found biking, running, or skiing on the front range, baking a loaf of sourdough, or watching the *Lord of the Rings* trilogy (for the 17th time) with my cat Pippin.
 
