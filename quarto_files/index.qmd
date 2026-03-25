@@ -1,5 +1,5 @@
 ---
-title: "Jordan Herbert - Earth Data Scientist"
+title: "Jordan Herbert"
 subtitle: "Earth Data Scientist"
 image: img/headshot.jpg
 about:
