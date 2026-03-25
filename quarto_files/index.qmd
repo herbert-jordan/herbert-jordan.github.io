@@ -1,5 +1,6 @@
 ---
-title: "Jordan Herbert - Hydrologist"
+title: "Jordan Herbert - Earth Data Scientist"
+subtitle: "Earth Data Scientist"
 image: img/headshot.jpg
 about:
   template: trestles
