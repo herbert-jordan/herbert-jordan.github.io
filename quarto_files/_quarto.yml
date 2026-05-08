@@ -13,6 +13,8 @@ website:
         href: blog.qmd
       - text: "CV"
         href: herbert_cv.pdf
+      - href: snolimits.html
+        text: SnoLimits
 
 
 format:
