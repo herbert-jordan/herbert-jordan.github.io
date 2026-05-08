@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-08">
+<meta name="description" content="A summary of the first chapter of my dissertation, published in The Cryosphere.">
 
-<title>Blog – Jordan Herbert - Earth Data Scientist</title>
+<title>Are Snow Stations Actually Representative of the Surrounding Landscape? – Jordan Herbert - Earth Data Scientist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jordan Herbert - Earth Data Scientist</span>
     </a>
   </div>
@@ -149,23 +91,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pubs.html"> 
+    <a class="nav-link" href="../../pubs.html"> 
 <span class="menu-text">Presentations and Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./herbert_cv.pdf"> 
+    <a class="nav-link" href="../../herbert_cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./snolimits.html"> 
+    <a class="nav-link" href="../../snolimits.html"> 
 <span class="menu-text">SnoLimits</span></a>
   </li>  
 </ul>
@@ -179,21 +121,37 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U25vdGVs">Snotel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGlkYXI=">lidar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVzZWFyY2g=">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c25vdyUyMGh5ZHJvbG9neQ==">snow hydrology <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Are Snow Stations Actually Representative of the Surrounding Landscape?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">snow hydrology</div>
+    <div class="quarto-category">lidar</div>
+    <div class="quarto-category">Snotel</div>
+    <div class="quarto-category">research</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    A summary of the first chapter of my dissertation, published in <em>The Cryosphere</em>.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 8, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -203,54 +161,81 @@ window.Quarto = {
 </header>
 
 
+<p><em>This is a quick write-up of the first chapter of my dissertation,</em> <a href="https://tc.copernicus.org/articles/18/3495/2024/">Reanalysing the spatial representativeness of snow depth at automated monitoring stations using airborne lidar data</a>, published in <em>The Cryosphere</em>.</p>
+<hr>
+<p>Any type of earth science modeling requires validation or <em>ground truth</em> to assess performance. Essentially, we need independent, high accuracy, measurements to see if the model is any good at what it’s supposed to be estimating.</p>
+<p>In snow hydrology, that validation has traditionally relied on ground-based measurements, either collected manually or automatically at Snow-Telemetry (Snotel) stations. But there’s a fundamental problem. Snow is extraordinarily variable over the landscape, and ground-based instruments measure a very limited area. A Snotel station measures snow water equivalent (SWE) at a 3×3 m footprint — yet the highest-resolution gridded snow datasets are typically 500 m resolution. To put that in perspective, about 27,000 Snotel stations could fit inside a single grid cell.</p>
+<p>Despite this mismatch, Snotel observations are routinely used to validate modeled snow outputs. Snotel stations are highly accurate and temporally continuous, meaning they can validate a model on any given day of the year. But the underlying assumption that a point measurement represents the surrounding landscape is difficult to test.</p>
+<p><strong>That’s what this paper set out to do.</strong></p>
+<hr>
+<section id="using-lidar-to-test-snotel-representativeness" class="level2">
+<h2 class="anchored" data-anchor-id="using-lidar-to-test-snotel-representativeness">Using Lidar to Test Snotel Representativeness</h2>
+<p>To answer the question of how well Snotel stations represent the surrounding area, we used airborne lidar data collected by <a href="https://airborneobservatory.org/">Airborne Snow Observatories (ASO)</a>, a NASA JPL project that has since become a private company. ASO collects accurate, high-resolution snow depth data across entire watersheds, providing unprecedented levels of spatial detail.</p>
+<p>It’s worth noting that the availability of lidar doesn’t make Snotel obsolete. Lidar surveys are expensive, snapshots of one moment in time, and collected only in select watersheds — mostly in California and Colorado. Snotel remains essential for continuous temporal monitoring, especially in areas without the resources to pay for expensive lidar surveys.</p>
+<p>Colorado and California fund extensive lidar sampling programs through ASO, and the figure below shows the basins with lidar coverage from 2021–2023, along with the locations of Snotel stations within those basins.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fig01.jpg" class="img-fluid figure-img"></p>
+<figcaption>Fig 1. Basins with both lidar surveys and Snotel data between 2021 and 2023 in Colorado and California.</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="how-we-measured-representativeness" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-measured-representativeness">How We Measured Representativeness</h2>
+<p>The approach was straightforward: calculate the mean snow depth in the area surrounding each Snotel station at several spatial scales, then compare that area-averaged value to what the station actually recorded. This effectively defines the expected error when using Snotel to validate a gridded model.</p>
+<p>We assessed representativeness at three scales — 0.5, 1, and 4 km boxes centered on each station. The figure below shows an example at the Stillwater Creek Snotel site, with lidar-measured snow depth and the three comparison boxes overlaid.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fig02.png" class="img-fluid figure-img"></p>
+<figcaption>Fig 2. Example of Snotel station representativeness assessment using lidar data at the Stillwater Creek Snotel site.</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="results-many-stations-are-not-representative" class="level2">
+<h2 class="anchored" data-anchor-id="results-many-stations-are-not-representative">Results: Many Stations Are Not Representative</h2>
+<p>The general findings were unsurprising in one respect: some stations represent their surroundings well, and many do not. At the 0.5 km scale, only about one-third of stations fell within ±10 cm of the surrounding area snow depth, and this fraction decreases at larger scales.</p>
+<p>The figure below summarizes results across all sites. The top panel shows the probability density function of the difference between each station and its surrounding area at the different scales, using three comparison approaches: the raw Snotel value, the nearest 50 m lidar point, and a randomly selected lidar point. The bottom panel summarizes the percentage of stations that are low, representative (within ±10 cm), or high relative to their surrounding area.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fig03.png" class="img-fluid figure-img"></p>
+<figcaption>Fig 3. Summary of Snotel station representativeness across all sites.</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="an-unexpected-finding-snotel-stations-are-systematically-high" class="level2">
+<h2 class="anchored" data-anchor-id="an-unexpected-finding-snotel-stations-are-systematically-high">An Unexpected Finding: Snotel Stations Are Systematically High</h2>
+<p>The more interesting result was a consistent directional bias. Snotel stations tend to record <em>higher</em> snow depths than the surrounding landscape. In the figure above, the red curve (Snotel) is systematically shifted high relative to the areal mean.</p>
+<p>Crucially, this bias is reduced when we substitute the nearest 50 m lidar point instead of the Snotel value. This suggests either that Snotel stations are systematically placed in locations with deeper snow, or that something about the measurement setup itself produces a high bias.</p>
+<p>To dig deeper, we compared three measurements at each location: the Snotel snow depth, the nearest 50 m lidar point, and the nearest 3 m lidar point. The Snotel value is consistently higher than the 50 m lidar point, but when compared to the 3 m lidar point directly beneath it, the bias largely disappears. This rules out instrument error as the primary explanation. Instead, it points to something about the <em>location</em> of Snotel stations on the landscape. Perhaps a tendency to locate them in sheltered, windward positions that accumulate more snow than the surrounding terrain.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fig04.png" class="img-fluid figure-img"></p>
+<figcaption>Comparisons of Snotel snow depth to the nearest 50 m and 3 m Lidar snow depth values</figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="biases-are-consistent-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="biases-are-consistent-over-time">Biases Are Consistent Over Time</h2>
+<p>One final result stood out. The bias between a station and its surrounding area tends to be stable across years. The figure below shows relative snow depth at three stations across three water years. Two stations maintain a consistent directional bias throughout the season, while one shows a mid-season flip.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/fig05.png" class="img-fluid figure-img"></p>
+<figcaption>Figure caption here</figcaption>
+</figure>
+</div>
+<p>This interannual consistency is actually encouraging. Even if a Snotel station doesn’t represent its surroundings in absolute terms, a stable bias can potentially be corrected — which would make Snotel a more reliable validation target for gridded models. In this paper we explored simple predictors like elevation and vegetation cover as correction factors, but none explained the bias well enough on their own.</p>
+<p>That limitation leads directly into the second chapter of my dissertation, where we developed a machine learning approach to estimate snow depth relative to a Snotel station using a much richer set of predictors.</p>
+<hr>
+<p><em>Questions or thoughts? Reach out at <a href="mailto:jordan.herbert@colorado.edu">jordan.herbert@colorado.edu</a></em></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="c25vdyUyMGh5ZHJvbG9neSUyQ2xpZGFyJTJDU25vdGVsJTJDcmVzZWFyY2g=" data-listing-date-sort="1778220000000" data-listing-file-modified-sort="1778270498483" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="943">
-<a href="./posts/ch1-snotel-representativeness/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/ch1-snotel-representativeness/img/fig01.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Are Snow Stations Actually Representative of the Surrounding Landscape?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('c25vdyUyMGh5ZHJvbG9neQ=='); return false;">
-snow hydrology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bGlkYXI='); return false;">
-lidar
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U25vdGVs'); return false;">
-Snotel
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">
-research
-</div>
-</div>
-<div class="card-text listing-description">
-A summary of the first chapter of my dissertation, published in <em>The Cryosphere</em>.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-May 8, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
