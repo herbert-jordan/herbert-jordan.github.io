@@ -242,11 +242,23 @@
 // ============================================================
 
 // List your COG files here in date order
-// Format: { date: 'YYYY-MM-DD', url: 'https://github.com/.../releases/download/v1/SWE_CO_YYYYMMDD.tif' }
-const DATES = [
-  { date: '2026-01-15', url: './data/swe/SWE_CO_20260115.tif' },
-  { date: '2026-01-16', url: './data/swe/SWE_CO_20260116.tif' },
-];
+// Replace your static DATES array with this
+function generateDates(start, end) {
+  const dates = [];
+  let d = new Date(start + 'T00:00:00');
+  const last = new Date(end + 'T00:00:00');
+  while (d <= last) {
+    const s = d.toISOString().slice(0, 10).replace(/-/g, '');
+    dates.push({
+      date: d.toISOString().slice(0, 10),
+      url:  `./data/swe/SWE_CO_${s}.tif`,
+    });
+    d.setDate(d.getDate() + 1);
+  }
+  return dates;
+}
+
+const DATES = generateDates('2025-10-01', '2026-05-04');
 
 // SNOTEL stations (add your actual stations here)
 const SNOTEL_STATIONS = [];
