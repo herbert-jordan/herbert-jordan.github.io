@@ -13,9 +13,8 @@ website:
         href: blog.qmd
       - text: "CV"
         href: herbert_cv.pdf
-      - href: snolimits.html
-        text: SnoLimits
-
+      - text: "SnoLimits"
+        href: "http://geode.colorado.edu/~SnoLimits/"
 
 format:
   html:
@@ -24,10 +23,3 @@ format:
     toc: false
 
 callout-appearance: simple
-
-
-
-
-
-
-
